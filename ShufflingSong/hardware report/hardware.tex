@@ -1,0 +1,62 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry} % Set margins to 1 inch
+\usepackage{graphicx} % Allows including images
+\usepackage{float} % Allows for precise placement of figures
+\usepackage{amsmath} % Allows for math equations
+\usepackage{siunitx} % Allows for SI units
+\usepackage{placeins} % Makes sure images are in their respective sections by \FloatBarrier
+
+\begin{document}
+
+\title{Hardware Assignment Documentation\\ \large{Rayi Giri Varshini\\EE22BTECH11215}}
+\author{}
+\date{}
+\maketitle
+\maketitle
+
+\section*{Description}
+
+	7-segment displays provide a convenient way of displaying numerical information from zero to nine as they basically consist of a load of light emitting diodes connected together within a single indicator package. The circuit uses 5V from Micro USB and this is Vcc for the circuit.
+    
+\section*{Components Used}
+\begin{enumerate}
+    \item Breadboard
+    \item Seven Segment Display - Common Anode
+    \item 7447 Decoder
+    \item 7474 Flip Flops
+    \item 7486 X-OR gate
+    \item 555 IC
+    \item Resistor 10M$\Omega$
+    \item Resistor 1K$\Omega$
+    \item Capacitor 100nF
+    \item Capacitor 100nF
+    \item Jumper wires
+    \item Micro USB
+\end{enumerate}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/image1.jpg}
+	\caption{Image of circuit}
+	\label{fig:view}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/image2.jpg}
+	\caption{Image of circuit}
+	\label{fig:view}
+\end{figure}
+\FloatBarrier
+
+\section*{Block Diagram}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/blockdiagram.png}
+	\caption{Block Diagram}
+	\label{fig:view}
+\end{figure}
+\FloatBarrier
+\end{document}
